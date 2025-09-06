@@ -1,0 +1,12 @@
+[package]
+name = "westend-transfer-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+subxt = "0.44.0"
+subxt-signer = { version = "0.44.0", features = ["sr25519"] }
+tokio = { version = "1", features = ["full"] }
+sp-core = "38.0.0"
+hex = "0.4.3"
+
